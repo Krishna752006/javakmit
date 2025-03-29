@@ -1,0 +1,4 @@
+Name,Age,Sex
+God,34,lod
+me,34,ty
+loki,543,fd
