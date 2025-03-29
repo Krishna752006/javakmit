@@ -1,0 +1,64 @@
+Why is oops used?
+
+is class directly loaded?
+
+how memory management work for single class (how jvm works, at complie time what and rumtime what)
+
+Garbage Collection: Java uses garbage collection to reclaim memory from objects that are no longer in use
+
+when what memory is created
+how memory management work for multiple classes
+
+String?
+
+pointers in java?
+
+final with method?
+
+classes within class?
+
+Differences Between Static Variables, Instance Variables, and Constants
+Type	Where Is It Stored?	When Does It Exist?	Who Owns It?
+Static Variable	Method Area	As long as class exists	Shared by all objects
+Instance Variable	Heap	As long as object exists	Each object has its own
+Static Final (constant)	Runtime Constant Pool	As long as class exists	Shared by all 
+objects
+
+The JVM reads the bytecode and converts it into native machine code at runtime using a technique called Just-In-Time (JIT) Compilation.
+
+java does not have global variables and static variables behave like global variables as they are accessed through class name.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You do need to know that System.gc() is not guaranteed to run, and you should be able to
+recognize when objects become eligible for garbage collection.
+
+An array is a fixed-size list of items that are all of the same type. The characters ... are called varargs (variable argument lists).
+
+
+To review, you need to have a JDK to compile because it includes a compiler. You do not
+need to have a JDK to run the code—a JRE is enough. Java class fi les run on the JVM and
+therefore run on any machine with Java rather than just the machine or operating system
+they happened to have been compiled on.
+
+Every class in the java.util package is available to this program when Java compiles it. It doesn’t import child packages, fi elds, or methods; it imports only classes. (Okay, it’s only classes for now, but there’s a special type of import called the “static import” that imports other types. You’ll learn more about that in Chapter 4.)
+
+You can also specify the location of the other files explicitly using a class path. This technique is useful when the class files are located elsewhere or in special JAR files. A JAR fi le is like a zip fi le of mainly Java class files.
+
+java -cp ".;C:\temp\someOtherLocation;c:\temp\myJar.jar" myPackage.MyClass
+
+static instance initializers
+
