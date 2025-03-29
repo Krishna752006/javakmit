@@ -1,0 +1,116 @@
+1. Write a Python program to find the first appearance of the substrings 'not' and 'poor' in a given string. 
+    If 'not' follows 'poor', replace the whole 'not'...'poor' substring with 'good'. Return the resulting string.
+
+Sample Input/Output:
+---------------------------------
+a.Enter a string: the lyrics is not good
+   Result: the lyrics is not good
+
+b.Enter a string: the lyrics is not poor
+   Result: the lyrics is good
+----------------------------------------------------------------------------------------------------------------------------------
+2. Write a Python program to count the occurrences of a specific character in a string.
+
+Sample Input/Output:
+-----------------------------   
+Enter a string: hello world
+Enter a character to count: l
+The character 'l' occurs 3 times in the string 'hello world'.
+-------------------------------------------------------------------------------------------------------------------------------------
+3. Write a Python program to find the longest word in a string.
+
+Sample Input/Output:
+-----------------------------  
+Enter a string: Python programming is fun
+The longest word in the string is: programming
+---------------------------------------------------------------------------------------------------------------------------------------
+
+4. Write a Python program to check if two strings are anagrams of each other.
+Sample Input/Output:
+-----------------------------  
+Enter the first string: listen
+Enter the second string: silent
+The strings are anagrams of each other.
+--------------------------------------------------------------------------------------------------------------------------------------------
+5. Write a Python program to find the longest common prefix among a list of strings. 
+
+Sample Input/Output:
+---------------------------
+Enter a list of strings separated by space: flower flow flight
+The longest common prefix among the strings is: fl
+
+-----------------------------------------------------------------------------------------------------------------
+6.Write a program that asks the user to enter a string of at least six characters.
+Then print out the following:
+(a) The length of the string
+(b) The second character of the string
+(c) The last character of the string
+(d) The first five characters of the string
+(e) The last two characters of the string
+(f) The string backwards
+(g) Every character of the string except the last one
+(h) Every character of the string except the first and last
+(i) The string in all caps
+(j) The string with every space replaced with an underscore
+sample I/O:
+Enter any string of at least six characters: Hello World
+The string: Hello World
+The length of the string: 11
+The second character of the string: e
+The last character of the string: d
+The first five characters of the string: Hello
+The last two characters of the string: ld
+The string backwards: dlroW olleH
+Every character of the string except the last one: Hello Worl
+Every character of the string except the first and last: ello Worl
+The string in all caps: HELLO WORLD
+The string with every space replaced with an underscore: Hello_World
+
+7.
+Write a Python program to check whether any word in a given string contains duplicate characters.If found print all the words seperately in the list.
+
+Sample output:
+
+Enter a string: hi how are you good to see you
+Words with duplicate characters:
+good
+see
+
+
+8.
+Write a Python program to replace each character of a word of length five and more with a hash character (#).
+
+Sample Output:
+
+Enter a string: hyderabad is the fastest growing city in India
+Modified string:
+######### is the ####### ####### city in #####
+
+9.
+Write a Python program to remove repeated consecutive characters and replace them with single letters and print a updated string.
+
+Sample output:
+
+Enter a string: hii good to see you
+Updated string:
+hi god to se you
+
+
+10.
+Write a python program to extract domain name from the user string email id?
+
+Sample output:
+
+Enter your email address: ravi@gmail.com
+Domain name: gmail.com
+
+11.Write a python program to valid username and password? 
+Username :length between 5 and 20 characters, and contains only alphanumeric characters. 
+Password length at least 8 characters, contains at least one uppercase letter, 
+one lowercase letter, and one digit.
+
+Sample output:
+Enter username: sachin
+Enter password: Sachin@123
+Valid username and password.
+

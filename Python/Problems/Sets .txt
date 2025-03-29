@@ -1,0 +1,287 @@
+Python questions on sets 
+
+1.Write a Python program to determine if a given set is a proper subset of itself.
+
+sample 1:
+Input: {1, 2, 3, 4}
+Output: The given set is a proper subset of itself.
+Explanation: The set {1, 2, 3, 4} is a proper subset of itself because it contains all the elements of itself and at least one additional element.
+
+sample 2:
+Input: {1, 2, 3, 4, 5}
+Output: The given set is not a proper subset of itself.
+Explanation: The set {1, 2, 3, 4, 5} is not a proper subset of itself because it contains all the elements of itself.
+
+--------------------------------------------------------------------------------------------------------------
+
+
+2.Develop a Python program to find the power set of a given set (set of all subsets).
+sample 1:
+Input: {1, 2, 3}
+output:Power set of the given set:
+()
+(1,)
+(2,)
+(3,)
+(1, 2)
+(1, 3)
+(2, 3)
+(1, 2, 3)
+
+sample 2:
+Input: {apple, banana, orange}
+Output:Power set of the given set:
+()
+('banana',)
+('apple',)
+('orange',)
+('apple', 'banana')
+('apple', 'orange')
+('banana', 'orange')
+('apple', 'banana', 'orange')
+
+-------------------------------------------------------------------------------------------------------------
+
+3.create a Python program to check if two sets are disjoint (have no common elements) without using the isdisjoint() method.
+
+sample 1:
+Input:
+First set: {1, 2, 3}
+Second set: {3, 4, 5}
+Output:The two sets are not disjoint (have common elements).
+
+sample 2:
+Input:
+First set: {apple, banana, orange}
+Second set: {grape, mango, pineapple}
+Output:
+The two sets are disjoint (have no common elements).
+-------------------------------------------------------------------------------------------------------------------
+
+4.Implement a Python program to find the longest consecutive sequence of elements in a set.
+
+sample 1:
+
+Input: {1, 2, 3, 5, 6, 7, 8, 10, 11}
+Output: Longest consecutive sequence in the given set: [5, 6, 7, 8]
+
+sample 2:
+
+Input: {10, 11, 13, 14, 15, 16, 17, 20}
+Output: Longest consecutive sequence in the given set: [13, 14, 15, 16, 17]
+-------------------------------------------------------------------------------------------------------------------
+
+5.Write a Python program to find the number of unique partitions of a given set.
+
+sample 1:
+
+Input: 3
+Output: Number of unique partitions of the set: 3
+Explanation: For a set with 3 elements, there are 3 unique partitions: {1, 1, 1}, {1, 2}, {3}.
+
+sample 2:
+
+Input: 5
+Output: Number of unique partitions of the set: 7
+Explanation: For a set with 5 elements, there are 7 unique partitions: {1, 1, 1, 1, 1}, {1, 1, 1, 2}, {1, 1, 3}, {1, 2, 2}, {1, 4}, {2, 3}, {5}.
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+6.Develop a Python program to find the symmetric closure of a set (the smallest symmetric superset).
+For example, consider the set {(1, 2), (2, 3), (3, 4)}
+
+This set contains pairs (1, 2), (2, 3), and (3, 4).
+The symmetric closure of this set would include additional pairs to ensure symmetry, so it would also include (2, 1), (3, 2), and (4, 3).
+So, the symmetric closure of {(1, 2), (2, 3), (3, 4)} would be {(1, 2), (2, 1), (2, 3), (3, 2), (3, 4), (4, 3)}.
+
+sample 1:
+Input: {(1, 2), (2, 3), (3, 4)}
+Output: Symmetric closure of the given set: {(1, 2), (2, 1), (3, 2), (2, 3), (3, 4), (4, 3), (4, 3), (3, 4)}
+
+sample 2:
+Input: {('a', 'b'), ('b', 'c'), ('d', 'e')}
+Output: Symmetric closure of the given set: {('b', 'a'), ('e', 'd'), ('c', 'b'), ('a', 'b'), ('d', 'e'), ('b', 'c')}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+7.Create a Python program to check if a given set is a perfect square set 
+(contains all integers in the range 1 to n^2 for some integer n).
+note:A perfect square set is a set that contains all integers in the range 1 to n^2 for some integer n. In other words, the set contains all the perfect squares from 1 to n^2.
+
+For example, if n = 3, then the set should contain all integers from 1 to 3^2 = 9, which are {1, 2, 3, 4, 5, 6, 7, 8, 9}.
+
+sample 1:
+
+Input: {1, 2, 3, 4, 5, 6, 7, 8, 9}
+Output: The given set is a perfect square set.
+Explanation: The set contains all integers from 1 to 9, which is the square of 3.
+
+sample 2:
+
+Input: {1, 2, 4, 5, 6, 7, 8, 9}
+Output: The given set is not a perfect square set.
+Explanation: The set is missing the integer 3.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+8.Write a Python program that takes two sets A and B as input from the user and finds the complement of set B with respect to set A (i.e., elements in A that are not in B). Print the complement set.
+
+sample 1:
+
+input:
+Enter the first set A within curly braces (e.g., {1, 2, 3}): {1, 2, 3}
+Enter the second set B within curly braces (e.g., {3, 4, 5}): {1, 2, 3}
+output:
+Complement of set B with respect to set A:
+set()
+Explanation: All elements in set B are present in set A, so the complement set is empty.
+
+sample 2:
+
+input:
+Enter the first set A within curly braces (e.g., {1, 2, 3}): {10, 20, 30}
+Enter the second set B within curly braces (e.g., {3, 4, 5}): {40, 50}
+output:
+Complement of set B with respect to set A:
+{10, 20, 30}
+Explanation: All elements in set A are not present in set B, so the complement set is the same as set A.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9.Write a Python program that takes a set of integers as input and performs the following operations:
+
+Remove the minimum element from the set.
+Remove the maximum element from the set.
+Add the average of the remaining elements to the set.
+Print the updated set after each operation.
+
+sample 1:
+
+Input: 7, 5, 3, 1
+Output:
+Initial set: {1, 3, 5, 7}
+After removing the minimum and maximum elements and adding the average:
+{3, 5, 4.0}
+
+sample 2:
+
+Input: 1, 2, 3, 4, 5
+Output:
+Initial set: {1, 2, 3, 4, 5}
+After removing the minimum and maximum elements and adding the average:
+{2, 3, 4, 3.0}
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+10.Develop a Python program to find the difference between the largest and smallest elements in a set 
+without using built-in functions like max() and min().
+
+sample 1:
+Input: {1, 2, 3, 4, 5}
+Output: Difference between the largest and smallest elements in the set: 4
+Explanation: The largest element is 5 and the smallest element is 1. Their difference is 5 - 1 = 4.
+
+sample 2:
+Input: {10, 20, 30, 40, 50}
+Output: Difference between the largest and smallest elements in the set: 40
+Explanation: The largest element is 50 and the smallest element is 10. Their difference is 50 - 10 = 40.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+11.Develop a Python program to find the maximum sum of a subset of a given 
+set such that no two elements in the subset have a common digit.
+
+sample 1:
+
+Input: {12, 345, 6789}
+Output: The maximum sum of a subset with no common digits is: 6789
+Explanation: The subset with the maximum sum and no common digits is {6789}, and its sum is 6789.
+
+sample 2:
+
+Input: {111, 222, 333}
+Output: The maximum sum of a subset with no common digits is: 0
+Explanation: There is no subset with no common digits, so the maximum sum is 0.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+12.write a Python program that takes two sets as input from the user and computes the differences between them:
+
+sample 1:
+
+input:
+Enter the first set A within curly braces (e.g., {1, 2, 3}): {1, 2, 3}
+Enter the second set B within curly braces (e.g., {3, 4, 5}): {1, 2, 3}
+output:
+Difference of set A from set B:set()
+Difference of set B from set A:set()
+Explanation: Both sets have the same elements, so the difference sets are empty sets.
+
+sample 2:
+
+input:
+Enter the first set A within curly braces (e.g., {1, 2, 3}): {10, 20, 30}
+Enter the second set B within curly braces (e.g., {3, 4, 5}): {40, 50}
+output:
+Difference of set A from set B:{10, 20, 30}
+Difference of set B from set A:{40, 50}
+Explanation: All elements in set A are not present in set B, and all elements in set B are not present in set A, so the difference sets are the same as the input sets.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+13.Write a Python program to generate all possible combinations of elements from two given sets.
+
+sample 1:
+
+input:
+First set: {1, 2, 3}
+Second set: {3, 4, 5}
+output:
+ All possible combinations of elements from the two sets:[(1, 3), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5)]
+
+sample 2:
+input:
+First set: {a, b}
+Second set: {c, d}
+output:
+All possible combinations of elements from the two sets:
+[('a', 'c'), ('a', 'd'), ('b', 'c'), ('b', 'd')]
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+14. Write a Python program to find the third largest number from a given list of numbers.Use the Python set data type.
+
+sample 1:
+
+Input: 3, 1, 2, 5, 5, 4, 4
+Output: The third largest number in the list is: 3
+Explanation: The unique numbers in the list are [1, 2, 3, 4, 5]. The third largest number is 3.
+
+sample 2:
+
+Input: 10, 20, 30, 40
+
+output:The third largest number in the list is: 20
+
+Explantion:
+We convert the input string into a list of integers: [10, 20, 30, 40].
+We then convert the list to a set to remove duplicates: {10, 20, 30, 40}.
+Next, we convert the set back to a list: [10, 20, 30, 40].
+Sorting the list in descending order gives us: [40, 30, 20, 10].
+Finally, we return the third element from the sorted list, which is 20.
+So, the third largest number in the list 10, 20, 30, 40 is 20.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+15. Write a Python program to remove all duplicates from a given list of strings and return a list of unique strings.
+ Use the Python set data type.
+
+sample 1:
+
+Input: {cat, dog, cat, dog, cat, dog}
+output:
+Set of unique strings:
+dog
+cat
+
+sample 2:
+
+Input: {apple, banana, orange, apple, orange, mango}
+Output:
+Set of unique strings:
+mango
+banana
+apple
+orange

@@ -1,0 +1,122 @@
+1.Write a Python function to reverse a list at a specific location.
+
+Sample Output:
+
+Original list:
+[10, 20, 30, 40, 50, 60, 70, 80]
+Reverse elements of the said list between index position 2 and 4
+[10, 20, 50, 40, 30, 60, 70, 80]
+
+Original list:
+[10, 20, 50, 40, 30, 60, 70, 80]
+Reverse elements of the said list between index position 6 and 7
+[10, 20, 50, 40, 30, 60, 80, 70]
+
+2.Write a Python program to count unique values inside a list
+
+Sample Output:
+input_list = [1, 2, 2, 5, 8, 4, 4, 8]
+No of unique items are: 5
+
+3.Write a pyhton program on Duplication removal list product?
+Sample Output:
+The original list is : [1, 3, 5, 6, 3, 5, 6, 1]
+Duplication removal list product : 90
+
+4.Write a pyhton program to Extract elements with Frequency greater than and equal to K?
+Sample Output:
+Input : test_list = [4, 6, 4, 3, 3, 4, 3, 4, 3, 8], K = 3 
+Output : [4, 3] 
+
+5.Write a pyhton program to Test if List contains elements in Range?
+Sample Output:
+Range:3 to 10
+The original list is : [4, 5, 6, 7, 3, 9]
+Does list contain all elements in range : True
+
+6.Python program to check if the list contains three consecutive common numbers in Python?
+
+Sample Output:
+Input : [4, 5, 5, 5, 3, 8]
+Output : 5
+
+Input : [1, 1, 1, 64, 23, 64, 22, 22, 22]
+Output : 1, 22
+
+7.Write a pyhton program to find the Strongest Neighbour?
+Sample Output:
+
+Input: 1 2 2 3 4 5
+Output: 2 2 3 4 5
+
+Input: 5 5
+Output: 5
+
+8.Python Program to print all Possible Combinations from the three Digits?
+
+Input: [1, 2, 3]
+Output:
+1 2 3
+1 3 2
+2 1 3
+2 3 1
+3 1 2
+3 2 1
+
+9.Python program to get all unique combinations of two Lists?
+
+Sample Output:
+List_1 = ["a","b"]
+List_2 = [1,2]
+Unique_combination = [[('a',1),('b',2)],[('a',2),('b',1)]] 
+
+10.Write a python to Remove all the occurrences of an element from a list 
+Sample Output:
+Input1: 1 1 2 3 4 5 1 2 1 
+Output1: 2 3 4 5 2 
+
+11.Write a  Python program to find the list in a list of lists whose sum of elements is the highest.
+Sample Output:
+Enter sublist 1 elements separated by space: 1 2 3
+Enter sublist 2 elements separated by space: 4 5 6
+Enter sublist 3 elements separated by space: 10 11 12
+List with the highest sum: [10, 11, 12]
+
+12.Find the items start with specific character from a given list in pyhton?
+
+Original list:
+['abcd', 'efgh', 'yash', 'ared', 'tsay']
+
+Enter a character to filter items from the list: a
+
+Items start with a from the said list:
+['abcd', 'ared']
+
+13.Write a  Python program to get the cumulative sum of the elements of a given list.
+
+Sample Ouput:
+Enter elements of the list separated by spaces: 8 9 7 5
+
+Original list elements:
+[8, 9, 7, 5]
+Cumulative sum of the elements of the said list:
+[8, 17, 24, 29]
+
+
+14.Write a Python program to find the first non-repeated element in a list.
+Sample Output:
+Original list:
+[1, 2, 3, 12, 1, 2, 3, 7, 8, 9]
+First non-repeated element in the said list:
+12
+
+15.Python program to find all the Combinations in the list with the given condition
+
+Sample Output:
+
+Input: test_list = [1,2,3] 
+Output: 
+ [1], [1, 2], [1, 2, 3], [1, 3]
+ [2], [2, 3], [3]
+
+

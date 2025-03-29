@@ -1,0 +1,9 @@
+vada,30
+idli,30
+dosa,25
+masala dosa,40
+bonda,30
+puri,45
+maggie,20
+upma,25
+uthappam,35

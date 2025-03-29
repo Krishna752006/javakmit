@@ -1,0 +1,9 @@
+biryani,150
+pulao,100
+noodles,80
+fried rice,90
+manchurian rice,90
+paneer fried rice,100
+pasta,70
+chilli chicken,90
+griller paneer,70

@@ -1,0 +1,9 @@
+chicken rice,100
+mutton rice,150
+paneer rice,90
+jeera rice,70
+dal and rice,70
+thali,100
+chapathi,50
+puneer and roti,100
+palak paneer,100
